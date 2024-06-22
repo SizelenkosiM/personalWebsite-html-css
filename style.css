@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7ed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#my-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+button{
+    background-color: #fff2e4;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+}
+
+@media (min-width: 310px){
+    .container1{
+        display: grid; 
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 3fr 0.5fr;
+        background-color: white;
+        gap: 5px;
+        height: 600px;
+        width: 900px;
+    }
+    
+}
+
+.myself{
+    background-color:#fff2e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.past-work{
+    grid-row: span 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myself1{
+    font-size: 40px;
+}
+
+.mee{
+    font-size: 20px;
+}
+
+.descr{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.greeting, .introduction{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#gmail{
+    height: 100px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
